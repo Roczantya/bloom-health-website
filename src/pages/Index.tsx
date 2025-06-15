@@ -7,6 +7,7 @@ import QuoteSection from "../components/QuoteSection";
 import CallToAction from "../components/CallToAction";
 import Footer from "../components/Footer";
 import FeaturesSection from "../components/FeaturesSection";
+import YourStorySection from "../components/YourStorySection";
 
 const Index = () => {
   return (
@@ -30,6 +31,7 @@ const Index = () => {
         <ResourceCards />
         <QuoteSection />
         <CallToAction />
+        <YourStorySection />
         <Footer />
       </div>
     </main>
