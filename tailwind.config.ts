@@ -23,33 +23,49 @@ export default {
 				sans: ['Inter', 'ui-sans-serif', 'system-ui'],
 			},
 			colors: {
-				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
-				card: 'hsl(var(--card))',
-				'card-foreground': 'hsl(var(--card-foreground))',
-				popover: 'hsl(var(--popover))',
-				'popover-foreground': 'hsl(var(--popover-foreground))',
+				background: '#faf9fc', // soft off-white with a hint of lavender
+				foreground: '#34323d', // gentle neutral text
+				card: '#f6f4fa',       // pastel card background
+				'card-foreground': '#34323d',
+				popover: '#f8f6fa',
+				'popover-foreground': '#34323d',
 				primary: {
-					DEFAULT: 'hsl(160, 100%, 40%)', // green
+					DEFAULT: '#b786f2', // pastel lavender/warm purple
 					foreground: '#fff'
 				},
-				secondary: 'hsl(var(--secondary))',
-				'secondary-foreground': 'hsl(var(--secondary-foreground))',
-				muted: 'hsl(var(--muted))',
-				'muted-foreground': 'hsl(var(--muted-foreground))',
-				accent: 'hsl(var(--accent))',
-				'accent-foreground': 'hsl(var(--accent-foreground))',
-				destructive: 'hsl(var(--destructive))',
-				'destructive-foreground': 'hsl(var(--destructive-foreground))',
-				border: 'hsl(var(--border))',
-				input: 'hsl(var(--input))',
-				ring: 'hsl(var(--ring))',
-				gradient1: '#98e4cf',
-				gradient2: '#82b3f4',
-				gradient3: '#ffe3ec',
+				accent: '#c7f5df',       // pastel mint green
+				'accent-foreground': '#3d4649',
+				secondary: '#ffdbe7',    // blush peach
+				'secondary-foreground': '#444043',
+				muted: '#ebe6f4',
+				'muted-foreground': '#7c758f',
+				destructive: '#fe9990',
+				'destructive-foreground': '#fff',
+				border: '#e3dcec',
+				input: '#efeaf7',
+				ring: '#ccbed7',
+				gradient1: '#e9ddfd',    // soft lavender gradient stop
+				gradient2: '#d1f7ee',    // mint green gradient stop
+				gradient3: '#ffdbe7',    // blush peach gradient stop
+				purple: {
+					light: '#ece1fa',
+					muted: '#b786f2',
+					warm: '#b37cdf',
+				},
+				mint: {
+					light: '#d1f7ee',
+					DEFAULT: '#a2efcb',
+				},
+				peach: {
+					light: '#ffdbe7',
+					DEFAULT: '#ffb5b5',
+				},
+				coral: {
+					muted: '#ffb7ae',
+				}
 			},
 			boxShadow: {
-				card: '0 4px 24px 0 rgba(60, 60, 60, 0.06)',
+				card: '0 4px 16px 0 rgba(183, 134, 242, 0.06)', // soft pastel card
 			},
 			keyframes: {
 				'fade-in-up': {
