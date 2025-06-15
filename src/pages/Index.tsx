@@ -1,4 +1,3 @@
-
 // MindBloom Landing Page
 
 import Hero from "../components/Hero";
@@ -7,6 +6,7 @@ import ResourceCards from "../components/ResourceCards";
 import QuoteSection from "../components/QuoteSection";
 import CallToAction from "../components/CallToAction";
 import Footer from "../components/Footer";
+import FeaturesSection from "../components/FeaturesSection";
 
 const Index = () => {
   return (
@@ -26,6 +26,7 @@ const Index = () => {
       <div className="pt-24 w-full">
         <Hero />
         <About />
+        <FeaturesSection />
         <ResourceCards />
         <QuoteSection />
         <CallToAction />
